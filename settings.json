@@ -1,0 +1,29 @@
+{
+    "code-runner.executorMap": {
+        "c": "gcc $fileName -o $fileNameWithoutExt && start cmd /k \"$fileNameWithoutExt.exe & echo. & pause & del $fileNameWithoutExt.exe & exit\"",
+        "cpp": "g++ $fileName -o $fileNameWithoutExt && start cmd /k \"$fileNameWithoutExt.exe & echo. & pause & del $fileNameWithoutExt.exe & exit\"",
+    },
+    "code-runner.runInTerminal": true,
+
+    "editor.fontSize": 18,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        72,
+        79
+    ],
+
+    "explorer.confirmDragAndDrop": false,
+
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+
+    "workbench.settings.editor": "json",
+    "workbench.startupEditor": "none",
+    "workbench.tree.indent": 15,
+    "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "One Dark Pro"
+}
